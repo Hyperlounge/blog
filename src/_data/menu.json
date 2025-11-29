@@ -4,12 +4,16 @@
         "url": "/about"
     },
     {
+        "label": "Photography",
+        "url": "/photography"
+    },
+    {
         "label": "Tag List",
         "url": "/tags"
     },
     {
         "label": "GitHub",
-        "url": "https://github.com/daflh/vredeburg",
+        "url": "https://github.com/hyperlounge",
         "newTab": true
     }
 ]
