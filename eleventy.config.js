@@ -6,6 +6,7 @@ module.exports = (config) => {
 
   config.addLayoutAlias('default', 'layouts/default.njk');
   config.addLayoutAlias('post', 'layouts/post.njk');
+  config.addLayoutAlias('gallery', 'layouts/gallery.njk');
   config.addLayoutAlias('page', 'layouts/page.njk');
 
   config.addFilter('readableDate', require('./lib/filters/readableDate'));
@@ -14,8 +15,10 @@ module.exports = (config) => {
   config.addTransform('minifyHtml', require('./lib/transforms/minifyHtml'));
 
   config.addCollection('posts', require('./lib/collections/posts'));
+  config.addCollection('galleries', require('./lib/collections/galleries'));
   config.addCollection('tagList', require('./lib/collections/tagList'));
   config.addCollection('pagedPosts', require('./lib/collections/pagedPosts'));
+  config.addCollection('pagedGalleries', require('./lib/collections/pagedGalleries'));
   config.addCollection('pagedPostsByTag', require('./lib/collections/pagedPostsByTag'));
 
   return {
