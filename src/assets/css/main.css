@@ -30,7 +30,6 @@ div.portrait + p>img, div.portrait + p>img + em {
     width: 66% !important;
     min-width: 66% !important;
     max-width: 66% !important;
-    line-height: normal;
 }
 
 div.square + p>img, div.square + p>img + em {
@@ -38,6 +37,10 @@ div.square + p>img, div.square + p>img + em {
     margin-left: 10%;
     margin-right: 10%;
     width: 80%;
+}
+
+p>img + em {
+    line-height: normal;
 }
 
 article img {
