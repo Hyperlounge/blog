@@ -35,9 +35,6 @@ Around 1980, I and a friend came up to Leicester Uni to study engineering, havin
 ![Snow in Victoria Park, Leicester](<img/midlands-1980s/img344 copy.jpg>)
 *A snowstorm in Victoria Park, Leicester*
 
-
-
-
 ![A man lost at the motor show](img/midlands-1980s/img398.jpg)
 *A man wonders where to go next at the Motor Show, Birmingham NEC*
 
@@ -45,7 +42,4 @@ Around 1980, I and a friend came up to Leicester Uni to study engineering, havin
 *Children waiting to be re-united with their parents at the Motor Show, Birmingham NEC*
 
 ![Punters watching a floor show at the Motor Show](img/midlands-1980s/img397.jpg)
-*Punters gathering to watch a floor show which, it being the 1980s, undoubtedly involved women being used in some dodgy way to sell cars*
-
-![Aston-Martin Lagonda at Birmingham Motor Show](img/midlands-1980s/img429.jpg)
-*A potential customer admires the Aston Martin Lagonda at the Motor Show, Birmingham NEC*
+*Punters gathering to watch a floor show at the Motor Show, Birmingham NEC*

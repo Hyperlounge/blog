@@ -19,27 +19,24 @@
   }
 }
 
-div.portrait, div.square {
+article .portrait, article .square {
     display: none;
 }
 
-div.portrait + p>img, div.portrait + p>img + em {
-    display: inline-block !important;
-    margin-left: 17% !important;
-    margin-right: 17% !important;
-    width: 66% !important;
-    min-width: 66% !important;
-    max-width: 66% !important;
+article .portrait + p>img, article .portrait + p>img + em {
+    margin-left: 17%;
+    margin-right: 17%;
+    width: 66%;
 }
 
-div.square + p>img, div.square + p>img + em {
-    display: inline-block;
+article .square + p>img, article .square + p>img + em {
     margin-left: 10%;
     margin-right: 10%;
     width: 80%;
 }
 
-p>img + em {
+article p>img + em {
+    display: inline-block;
     line-height: normal;
 }
 
