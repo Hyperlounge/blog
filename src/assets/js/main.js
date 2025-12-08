@@ -48,4 +48,6 @@ document.addEventListener('DOMContentLoaded', () => {
     elem.setAttribute('src', originalImage);
     elem.removeAttribute('data-src');
   });
+
+  hljs.highlightAll();
 }, false);
