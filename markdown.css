@@ -1,0 +1,22 @@
+* {
+    background-color: white;
+    color: black;
+}
+
+div.portrait, div.square {
+    display: none;
+}
+
+div.portrait + p>img, div.portrait + p>img + em {
+    display: inline-block;
+    margin-left: 17%;
+    margin-right: 17%;
+    width: 66%;
+}
+
+div.square + p>img, div.square + p>img + em {
+    display: inline-block;
+    margin-left: 10%;
+    margin-right: 10%;
+    width: 80%;
+}

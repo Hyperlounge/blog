@@ -1,6 +1,7 @@
 module.exports = (config) => {
-  config.addPassthroughCopy('src/assets/img/**/*');
+  config.addPassthroughCopy('src/assets/img/**/*.jpg');
   config.addPassthroughCopy({ 'src/posts/img/**/*': 'assets/img/' });
+  config.addPassthroughCopy({ 'src/posts/galleries/img/': 'assets/img/' });
 
   config.addWatchTarget("src/assets/js/");
 
@@ -12,6 +13,9 @@ module.exports = (config) => {
   config.addFilter('readableDate', require('./lib/filters/readableDate'));
   config.addFilter('minifyJs', require('./lib/filters/minifyJs'));
 
+  config.addTransform("convert-img-src", async function (content) {
+		return content.replace(/src="img/g, 'src="../assets/img/' );
+	});
   config.addTransform('minifyHtml', require('./lib/transforms/minifyHtml'));
 
   config.addCollection('posts', require('./lib/collections/posts'));
