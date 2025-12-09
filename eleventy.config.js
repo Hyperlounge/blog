@@ -2,7 +2,7 @@ const container = require('markdown-it-container');
 
 module.exports = (config) => {
   config.addPassthroughCopy('src/assets/img/**/*.jpg');
-  config.addPassthroughCopy({ 'src/posts/img/**/*': 'assets/img/' });
+  config.addPassthroughCopy({ 'src/posts/img/': 'assets/img/' });
   config.addPassthroughCopy({ 'src/posts/galleries/img/': 'assets/img/' });
 
   config.addWatchTarget("src/assets/js/");

@@ -1,2 +1,5 @@
 {
+    "markdown.copyFiles.destination": {
+        "/src/posts/**/*": "img/${documentBaseName}/"
+    }
 }
