@@ -17,8 +17,6 @@
   .prose img {
     margin-bottom: 0 !important;
   }
-
-
 }
 
 @layer utilities {
@@ -30,28 +28,22 @@
   }
 }
 
-article .portrait, article .square {
-    display: none;
+article div.portrait {
+  margin-left: 17%;
+  margin-right: 17%;
+  width: 66%;
 }
 
-article .portrait + p>img, article .portrait + p>img + em {
-    margin-left: 17%;
-    margin-right: 17%;
-    width: 66%;
+article div.square {
+  margin-left: 10%;
+  margin-right: 10%;
+  width: 80%;
 }
 
-article .square + p>img, article .square + p>img + em {
-    margin-left: 10%;
-    margin-right: 10%;
-    width: 80%;
-}
-
-article p>img + em {
-    display: inline-block;
-    line-height: normal;
+article p > img + em {
+  line-height: normal;
 }
 
 article img {
   margin-bottom: 0 !important;
 }
-

@@ -4,10 +4,11 @@ title: "The Midlands in the 1980's"
 description: "Travels in the midlands while at university"
 date: 2025-11-28T16:11
 thumb: midlands-1980s-thumb.jpg
-tags: 
-    - photography 
-    - midlands
+tags:
+  - photography
+  - midlands
 ---
+
 Around 1980, I and a friend came up to Leicester Uni to study engineering, having become friends while at school in Brighton. We were both into photography and fascinated by the industrial landscape we encountered in an around Leicester, so different from what we had known down south. We had many picture taking trips when we should have been doing homework, and it was a productive time photographically. In 1980 we were in a world before ubiquitous photography, and even as 20 year olds with our reasonably priced SLRs we were often taken to be professional photographers, perhaps working for a local newspaper.
 
 ![Children make a bonfire of rubbish at the edge of an estate](img/midlands-1980s/img399.jpg)
@@ -16,10 +17,10 @@ Around 1980, I and a friend came up to Leicester Uni to study engineering, havin
 ![The KW milk depot in Leicester](img/midlands-1980s/3978184594_10d82f3224_b.jpg)
 *The K&W dairy milk depot in Leicester, these were the days before we began to get all of our milk from the supermarket*
 
-<div class="portrait"></div>
-
+::: portrait
 ![Traveller children playing on the fringes of a derelict housing estate](img/midlands-1980s/img356.jpg)
 *Traveller children playing on the fringes of a derelict housing estate*
+:::
 
 ![Birmingham industrial estate](img/midlands-1980s/img347.jpg)
 *A man walking in a run-down industrial area of Birmingham*
@@ -27,10 +28,10 @@ Around 1980, I and a friend came up to Leicester Uni to study engineering, havin
 ![Railway land in Birmingham](img/midlands-1980s/img402.jpg)
 *The vast railway lands on the approaches to Birmingham New Street station*
 
-<div class="portrait"></div>
-
+::: portrait
 ![Man in doorway](img/midlands-1980s/img352.jpg)
 *A man takes a break from fish preparation in the back streets of Leicester*
+:::
 
 ![Snow in Victoria Park, Leicester](<img/midlands-1980s/img344 copy.jpg>)
 *A snowstorm in Victoria Park, Leicester*

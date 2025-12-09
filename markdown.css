@@ -3,19 +3,18 @@
     color: black;
 }
 
-div.portrait, div.square {
-    display: none;
+em {
+    text-decoration: none !important;
+    font-style: italic;
 }
 
-div.portrait + p>img, div.portrait + p>img + em {
-    display: inline-block;
+div.portrait {
     margin-left: 17%;
     margin-right: 17%;
     width: 66%;
 }
 
-div.square + p>img, div.square + p>img + em {
-    display: inline-block;
+div.square {
     margin-left: 10%;
     margin-right: 10%;
     width: 80%;
