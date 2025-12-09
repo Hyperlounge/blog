@@ -51,3 +51,7 @@ document.addEventListener('DOMContentLoaded', () => {
 
   hljs.highlightAll();
 }, false);
+
+document.addEventListener('contextmenu', event => {
+  event.preventDefault();
+});

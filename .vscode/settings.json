@@ -1,5 +1,9 @@
 {
     "markdown.copyFiles.destination": {
         "/src/posts/**/*": "img/${documentBaseName}/"
-    }
+    },
+    "markdown.copyFiles.overwriteBehavior": "overwrite",
+    "markdown.styles": [
+        "./markdown.css"
+    ]
 }

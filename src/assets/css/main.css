@@ -47,3 +47,27 @@ article p > img + em {
 article img {
   margin-bottom: 0 !important;
 }
+
+.gallery-root {
+  position: fixed;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(0, 0, 0, 0.5);
+}
+
+.gallery-background {
+  position: absolute;
+  top: 5%;
+  left: 5%;
+  right: 5%;
+  bottom: 5%;
+  background-color: white;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.gallery-background img {
+  width: 80%;
+  height: auto;
+}
