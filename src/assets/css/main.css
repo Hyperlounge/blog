@@ -46,6 +46,8 @@ article p > img + em {
 
 article img {
   margin-bottom: 0 !important;
+  -webkit-user-select: none;
+  -webkit-touch-callout: none;
 }
 
 .gallery-root {
